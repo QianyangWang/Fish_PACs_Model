@@ -36,7 +36,7 @@ This repository contains the model code, input data, and analysis scripts for si
 └── README.md                      		            # Project documentation
 ```
 
-## Dependencies (Tested Version)
+## Dependencies
 
 Numpy, Pandas, matplotlib, SALib, pyDOE,  joblib, multiprocessing, scipy
 
