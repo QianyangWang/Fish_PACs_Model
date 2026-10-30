@@ -68,7 +68,7 @@ class WaterModel:
         DOC_contrib = Kdoc * DOC_kgL
         TSS_contrib = Kp * TSS_kgL
         denominator = 1 + DOC_contrib + TSS_contrib
-        C_dis = C_w / denominator  #Please note variable C_w here is C_dis in equation
+        C_dis = C_w / denominator  
         C_doc_bound = Kdoc * C_dis * DOC_kgL
         C_particle = Kp * C_dis * TSS_kgL
         C_dissolved = C_w - C_doc_bound - C_particle
